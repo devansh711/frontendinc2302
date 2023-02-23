@@ -1,0 +1,20 @@
+.navv{
+  display: 'flex';
+  height: inherit;
+  overflow: 'scroll initial'}
+@media only screen and (max-width: 600px) {
+  .navv {
+      position: 'fixed';
+      top: '0';
+      bottom: '0';
+      left: '0';
+      height: 150%;
+  }}
+@media only screen and (max-width: 400px) {
+  .navv {
+      position: 'fixed';
+      top: '0';
+      bottom: '0';
+      left: '0';
+       height: 250%;
+}}
